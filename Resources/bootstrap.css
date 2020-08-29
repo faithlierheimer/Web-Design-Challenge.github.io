@@ -64,7 +64,10 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
-
+img{
+  height: 300px;
+  width: 200px;
+}
 body {
   margin: 0;
   font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
