@@ -64,8 +64,12 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
-img{
-  height: 300px;
+/* img{
+  height: 150px;
+  width: 150px;
+} */
+.comm{
+  height: 200px;
   width: 200px;
 }
 body {
