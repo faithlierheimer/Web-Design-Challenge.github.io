@@ -65,13 +65,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 /* img{
-  height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 300px;
 } */
-.comm{
-  height: 200px;
-  width: 200px;
-}
 body {
   margin: 0;
   font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
