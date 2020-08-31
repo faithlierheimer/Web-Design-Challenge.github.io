@@ -13,6 +13,7 @@
 </head>
 <body>
   <!--Building a Dropdown Nav Bar In Between Pages-->
+  <!--NEED HELP MAKING NAVBAR ALWAYS COLLAPSED AND NEVER EXPANDED.-->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">B Corp Analysis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,12 +21,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
- 
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Pages
               </a>
                 <a class="dropdown-item" href="index.html">Home</a> 
                 <a class="dropdown-item" href="impact_areas.html">Impact Area Breakdown</a>
+                <a class="dropdown-item" href="governance_ia.html">Governance Impact Area Graph</a>
+                <a class="dropdown-item" href="community_ia.html">Community Impact Area Graph</a>
+                <a class="dropdown-item" href="environment_ia.html">Environment Impact Area Graph</a>
+                <a class="dropdown-item" href="workers_ia.html">Workers Impact Area Graph</a>
+                <a class="dropdown-item" href="customers_ia.html">Customers Impact Area Graph</a>
                 <a class="dropdown-item" href="impact_score_changes.html">Impact Score Changes</a>
                 <a class="dropdown-item" href="impact_scores_by_sector.html">Impact Scores by Sector</a>
                 <a class ="dropdown-item" href="laureate_case_study.html">Laureate Education Case Study</a>
@@ -39,9 +44,9 @@
         <h1>Why B Corps?</h1>
         <h3><blockquote cite="https://bcorporation.net/about-b-corps?gclid=Cj0KCQjw1qL6BRCmARIsADV9JtaHqee1Q4bLp7gbUNtWd3lpqVuFwpcu3mPvtV2R3g1nr98HqRZ8748aAipzEALw_wcB"><a href="https://bcorporation.net/about-b-corps?gclid=Cj0KCQjw1qL6BRCmARIsADV9JtaHqee1Q4bLp7gbUNtWd3lpqVuFwpcu3mPvtV2R3g1nr98HqRZ8748aAipzEALw_wcB">Certified B Corporations</a> are businesses that meet the highest standards of verified social and environmental performance, public transparency, and legal accountability to balance profit and purpose. B Corps are accelerating a global culture shift to redefine success in business and build a more inclusive and sustainable economy.</blockquote></h3>
         <br/>
-        <div class="img container">
+        <!-- <div class="img container">
           <img src="assets/blogo.png" height="300" width="300" alt="B Corp Business as a Force for Good Logo">
-        </div>
+        </div> -->
         <h4>This project sought to understand the analytics behind certifying B Corporations. 
           Specifically, we wanted to understand the following analytical elements of B Corporation 
           Certification:</h4>
@@ -76,7 +81,9 @@
     </div>
     <div class="row">
       <div class="col-4">
-          <img src="assets/prof pic.png" height="200" width="200" alt="Photo of Faith Lierheimer">
+          <a href="https://github.com/faithlierheimer" target="_blank">
+            <img src="assets/prof pic.png" height="200" width="200" alt="Photo of Faith Lierheimer">
+          </a>
         <h2>Faith Lierheimer</h2>
         <h4>A haunted house and boxing enthusiast, Faith 
           is the humble creator of this website, and someday hopes to use analytics 
@@ -86,7 +93,9 @@
         </h4>
       </div>
       <div class = "col-4">
-        <img src="assets/natepic.jpg" height="200" width="200" alt="Photo of Nathaniel Diamond">
+        <a href="https://github.com/DiamondN97" target="_blank">
+          <img src="assets/natepic.jpg" height="200" width="200" alt="Photo of Nathaniel Diamond">
+        </a>
         <h2>Nathaniel Diamond</h2>
         <h4>An indie music lover and ex-temporary-Floridian, Nathaniel handled 
           the case study portion of this project and gave us all invaluable advice
@@ -94,7 +103,9 @@
         </h4>
       </div>
       <div class = "col-4">
-        <img src="assets/nathanpic.jpg" height="200" width="200" alt="Photo of Nathan Phillips">
+        <a href="https://github.com/Phillips4100" target="_blank">
+          <img src="assets/nathanpic.jpg" height="200" width="200" alt="Photo of Nathan Phillips">
+        </a>
         <h2>Nathan Phillips</h2>
         <h4>Cool as a cucumber and an expert dog dad, Nathan handled the visualizations  
           tracking the change in impact scores over time as well a particularly tricky
