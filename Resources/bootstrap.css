@@ -54,6 +54,11 @@
   border: 1px solid black;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
